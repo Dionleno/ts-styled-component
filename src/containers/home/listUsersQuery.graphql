@@ -1,0 +1,6 @@
+query Todo {
+  allTodoes {
+    name,
+    email
+  }
+}

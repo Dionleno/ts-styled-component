@@ -1,0 +1,37 @@
+{
+    "name": "react-ts",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@types/graphql": "^0.13.1",
+        "@types/prop-types": "^15.5.3",
+        "@types/react-router-dom": "^4.2.7",
+        "apollo-cache-inmemory": "^1.2.2",
+        "apollo-client": "^2.3.2",
+        "apollo-link-http": "^1.5.4",
+        "graphql": "^0.13.2",
+        "graphql-tag": "^2.9.2",
+        "react": "^16.4.0",
+        "react-apollo": "^2.1.4",
+        "react-dom": "^16.4.0",
+        "react-router-dom": "4.2.2",
+        "react-scripts-ts": "2.16.0",
+        "styled-components": "^3.4.2",
+        "styled-theming": "^2.2.0"
+    },
+    "scripts": {
+        "start": "react-app-rewired start --scripts-version react-scripts-ts",
+        "build": "react-scripts-ts build",
+        "tslint": "tslint --project ./",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.0.0",
+        "@types/node": "10.1.4",
+        "@types/react": "^16.3.17",
+        "@types/react-dom": "^16.0.6",
+        "react-app-rewired": "^1.5.2",
+        "typescript": "^2.9.1"
+    }
+}

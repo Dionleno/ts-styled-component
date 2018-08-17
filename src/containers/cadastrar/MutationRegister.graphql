@@ -1,0 +1,6 @@
+ mutation createTodo($email: String! , $name: String!){
+  createTodo(email:$email,name:$name){
+     email
+     name
+   }
+ }
